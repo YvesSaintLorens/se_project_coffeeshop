@@ -76,7 +76,7 @@
             <div class="recipes__video-captions">
               <div class="recipes__video-caption">Delicious Dalgona Coffee Recipe</div>
               <div class="recipes__video-caption">~3 min</div>
-  
+              
               <div class="recipes__video-caption">
                 3 Cold Coffee Recipes for Summer Drinks
               </div>
@@ -84,8 +84,43 @@
             </div>
           </section>
           <section id="reservations-section" class="reservations">
-            Reservations
-          </section>
+            <h2 class="reservation__title">Reservations</h2>
+            <form action="" class="reservation__form form"></form>
+            <fieldset class="form__fieldset">
+                <label for="name" class="form__label">Name *
+                <input
+                id="name"
+                class="form__input"
+                type="text"
+                required
+                placeholder="Name-Surname">
+                </label>
+                <label for="number" class="form__label">
+                    Number of Guests * 
+                    <input
+                    type="number"
+                    class="form__input"
+                    placeholder="1-10"
+                    id="number"
+                    />
+                </label>
+                <label for="email" class="form__label">
+                    Email Address *
+                    <input
+                    type="email"
+                    class="form__input"
+                    placeholder="your-email@email.com"
+                    id="email"
+                    />
+                </label>
+            </fieldset>
+            <button class="form__button">Book a table</button>
+            <label for="checkbox" class="form__label form__label_type_checkbox">
+              <input type="checkbox" class="form__checkbox" id="checkbox" />
+              I agree with the terms of use
+            </label>
+          </form>
+        </section>
           <section id="menu-section" class="menu">Menu</section>
           <section id="about-section" class="about">About</section>
         </main>
