@@ -83,49 +83,57 @@
               <div class="recipes__video-caption">~ 6 min</div>
             </div>
           </section>
-          <section id="reservations-section" class="reservations">
-            <h2 class="reservation__title">Reservations</h2>
-            <form action="" class="reservation__form form"></form>
-            <fieldset class="form__fieldset">
-                <label for="name" class="form__label">Name *
-                <input
-                id="name"
-                class="form__input"
-                type="text"
-                required
-                placeholder="Name-Surname">
+          <section class="reservation" id="reservation">
+            <h2 class="reservation__title">Book A Table</h2>
+            <form class="form reservation__form">
+              <fieldset class="form__fieldset">
+                <label for="name" class="form__label">
+                  Name *<input
+                    type="text"
+                    class="form__input"
+                    placeholder="Name-Surname"
+                    id="name"
+                  />
                 </label>
                 <label for="number" class="form__label">
-                    Number of Guests * 
-                    <input
+                  Number of guests *<input
                     type="number"
                     class="form__input"
-                    placeholder="1-10"
+                    placeholder="1-8"
                     id="number"
-                    />
+                  />
+                </label>
+                <label for="schedule" class="form__label">
+                  Date & time *
+                  <input
+                    type="datetime-local"
+                    class="form__input"
+                    id="schedule"
+                  />
                 </label>
                 <label for="email" class="form__label">
-                    Email Address *
-                    <input
+                  Your email *
+                  <input
                     type="email"
                     class="form__input"
-                    placeholder="your-email@email.com"
+                    placeholder="email@email.com"
                     id="email"
-                    />
+                  />
                 </label>
-            </fieldset>
-            <button class="form__button">Book a table</button>
-            <label for="checkbox" class="form__label form__label_type_checkbox">
-              <input type="checkbox" class="form__checkbox" id="checkbox" />
-              I agree with the terms of use
-            </label>
-          </form>
-        </section>
-          <section id="menu-section" class="menu">Menu</section>
-          <section id="about-section" class="about">About</section>
+              </fieldset>
+              <button class="form__button">Book a table</button>
+              <label for="checkbox" class="form__label form__label_type_checkbox">
+                <input type="checkbox" class="form__checkbox" id="checkbox" />
+                I agree with the terms of use
+              </label>
+            </form>
+          </section>
+  
+          <section class="menu" id="Menu"></section>
+  
+          <section class="about"></section>
         </main>
-        <footer class="footer"></footer>
+        <footer class="footer" id="Contacts"></footer>
       </div>
     </body>
   </html>
-
