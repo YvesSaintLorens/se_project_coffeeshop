@@ -171,6 +171,14 @@
     color: #fff;
   }
 
+  .reservation {
+    padding: 100px 0 120px;
+  }
+
+  .reservation__title {
+    margin: 0 0 80px;
+  }
+  
   .reservation__form {
     margin: 0 auto;
   }
