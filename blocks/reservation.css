@@ -1,6 +1,6 @@
 .reservation {
     padding: 100px 0 120px;
-    background-image: url(/images/background_reservation.svg);
+    background-image: url(../images/background_reservation.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -69,7 +69,7 @@
   .input[type="checkbox"] {
     border-radius: 2px;
     background-color: #2f80ed;
-    background-image: url(/images/check.svg);
+    background-image: url(../images/check.svg);
     background-repeat: no-repeat;
     background-position: center;
     padding-left: 20px;
