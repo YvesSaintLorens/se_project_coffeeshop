@@ -27,10 +27,10 @@
             class="nav__logo"
           >
           <ul class="nav__links">
-            <li><a href="#recipes-section">Recipes</a></li>
-            <li><a href="#reservation">Book a table</a></li>
-            <li><a href="#menu">Menu</a></li>
-            <li><a href="#about">Contacts</a></li>
+            <li><a href="#recipes-section" class="nav__link">Recipes</a></li>
+            <li><a href="#reservation" class="nav__link">Book a table</a></li>
+            <li><a href="#menu" class="nav__link">Menu</a></li>
+            <li><a href="#about" class="nav__link">Contacts</a></li>
           </ul>
         </nav>
         <h1 class="header__title">
@@ -58,6 +58,7 @@
                 convenience:
               </p>
             <div class="recipes__videos">
+              <div>
               <iframe
                 src="https://www.youtube.com/embed/9SjCEOWd3PU?si=YC0Jw-1Bt6-ibokw"
                 title="YouTube video player"
@@ -65,7 +66,13 @@
                 allowfullscreen
                 class="recipes__iframe"
               ></iframe>
-  
+              <p class="recipes__video-caption">
+                <span>Delicious Dalgona Coffee Recipe</span>
+                <span>~3 min</span>
+                </p>
+              </div>
+              
+              <div>
               <iframe
                 src="https://www.youtube.com/embed/LcSYKsdZCM8?si=ek7vV0y46ml8UWoQ"
                 title="YouTube video player"
@@ -73,14 +80,11 @@
                 allowfullscreen
                 class="recipes__iframe"
               ></iframe>
+              <p class="recipes__video-caption">
+                <span>3 Cold Coffee Recipes for Summer Drinks</span>
+                <span>~6 min</span>
+                </p>
             </div>
-            <p class="recipes__video-caption">
-              <span>Delicious Dalgona Coffee Recipe</span>
-              <span>~3 min</span>
-              
-              <span>3 Cold Coffee Recipes for Summer Drinks</span>
-              <span>~6 min</span>
-            </p>
           </section>
           <section class="reservation" id="reservation">
             <h2 class="reservation__title">Book A Table</h2>
