@@ -10,6 +10,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -60,6 +62,7 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  align-items: end;
 }
 
 .header__paragraph {
